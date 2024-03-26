@@ -6,7 +6,8 @@ This project focuses on anomaly detection in electrocardiograms (ECGs) using an 
 
 ## Datasets
 
-The **ECG5000** dataset, containing 5,000 ECGs with 140 data points each, is used in this project. It includes specific labels for normal and abnormal rhythms, making it ideal for supervised anomaly detection tasks.
+The **ECG5000** dataset, containing 5,000 ECGs with 140 data points each, is used in this project. 
+We will utilize a simplified version of the dataset, where each example has been labeled either 0 (corresponding to an abnormal rhythm), or 1 (corresponding to a normal rhythm).
 
 The dataset is available [here](http://www.timeseriesclassification.com/description.php?Dataset=ECG5000).
 
@@ -32,7 +33,6 @@ Ensure the installation of the following dependencies:
 - NumPy
 - Matplotlib
 - Scikit-learn
-
 
 ## Codes
 
